@@ -1,0 +1,53 @@
+<!-- Linea Que hacemos-->
+<svg viewBox="0 0 100 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        .chip-line {
+            fill: #553671;
+        }
+
+        .chip-line-0 {
+            fill: #806895;
+        }
+
+        .chip-line-1 {
+            fill: #927fa4;
+
+        }
+
+        .chip-line-2 {
+            fill: #b3a5c0;
+
+        }
+
+        .chip-line-3 {
+            fill: #ddd7e1
+        }
+        .svg-text{
+            font-size: 3.2px;
+            line-height: 4px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    </style>
+
+    <rect x="07.5" y="0" class="chip-line" width="85" height=".3" />
+    <rect x="16.6" y="0.3" class="chip-line" width="0.3" height="9" />
+    <circle class="chip-line" cx="16.8" cy="9" r="1" />
+    <text transform="matrix(1 0 0 1 3.45 13.6)" class="svg-text">Web Development</text>
+
+    <rect x="33.3" y="0.3" class="chip-line-0" width="0.3" height="16" />
+    <circle class="chip-line-0" cx="33.5" cy="16" r="1" />
+    <text transform="matrix(1 0 0 1 22 19.6)" class="svg-text">iOS Development</text>
+
+    <rect x="49.9" y="0.3" class="chip-line-1" width="0.3" height="7" />
+    <circle class="chip-line-1" cx="50.1" cy="7" r="1" />
+    <text transform="matrix(.9 0 0 .9 37 10.6)" class="svg-text">Android Development</text>
+
+    <rect x="66.5" y="0.3" class="chip-line-2" width="0.3" height="17" />
+    <circle class="chip-line-2" cx="66.7" cy="17" r="1" />
+    <text transform="matrix(1 0 0 1 61 20.3)" class="svg-text">Branding</text>
+
+    <rect x="83.1" y="0.3" class="chip-line-3" width="0.3" height="11" />
+    <circle class="chip-line-3" cx="83.3" cy="11" r="1" />
+    <text transform="matrix(.9 0 0 .9 70 14.3)" class="svg-text">Full-stack Development</text>
+
+</svg>

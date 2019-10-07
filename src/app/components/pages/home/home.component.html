@@ -1,0 +1,43 @@
+<app-hero></app-hero>
+<div class="container">
+  <div
+    appInViewPort
+    (inViewPort)="updateViewportElement($event)"
+    id="nosotros"
+    style="height: 100vh; background-color: orange"
+  >
+    <p>Nosotros</p>
+  </div>
+  <div
+    appInViewPort
+    (inViewPort)="updateViewportElement($event)"
+    id="servicios"
+    style="height: 100vh; background-color: red"
+  >
+    <p>Servicios</p>
+  </div>
+  <div
+    appInViewPort
+    (inViewPort)="updateViewportElement($event)"
+    id="tecnologia"
+    style="height: 100vh; background-color: yellow"
+  >
+    <p>Tecnología</p>
+  </div>
+  <div
+    appInViewPort
+    (inViewPort)="updateViewportElement($event)"
+    id="clientes"
+    style="height: 100vh; background-color: gray"
+  >
+    <p>Clientes</p>
+  </div>
+  <div
+    appInViewPort
+    (inViewPort)="updateViewportElement($event)"
+    id="contacto"
+    style="height: 100vh; background-color: firebrick"
+  >
+    <p>Contacto</p>
+  </div>
+</div>

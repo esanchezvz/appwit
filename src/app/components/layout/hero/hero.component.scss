@@ -1,0 +1,28 @@
+@import 'src/scss/varibales';
+
+section.hero {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #f2f4f2, rgba(40, 27, 71, 0.8)),
+    url(src/assets/img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  div.logo-container {
+    .logo-title {
+      color: white;
+      font-weight: 500;
+      line-height: 5rem;
+      font-size: 5rem;
+    }
+
+    .hero-logo {
+      width: 100%;
+      padding: 0 20px;
+      max-width: 300px;
+    }
+  }
+}
